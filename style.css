@@ -6,7 +6,7 @@
 body{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(rgb(194, 62, 206),pink);
+    background: linear-gradient(rgb(96, 237, 241),rgb(62, 98, 218));
 }
 .todolist{
     margin: 2px;
