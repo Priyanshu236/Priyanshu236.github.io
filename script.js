@@ -32,7 +32,7 @@ function showtasks(){
  let size=0;
  listArr.forEach((element,index) => {
      size=size+1;
-    newLiTag+=`<li>${element} <span onclick="deleteTask(${index})";>Del</span></li>`;
+    newLiTag+=`<li>${element} <span onclick="deleteTask(${index})";>Delete</span></li>`;
 });
 pendtasks.innerHTML=size;
 inputbox.value="";
